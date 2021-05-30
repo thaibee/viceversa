@@ -6,9 +6,9 @@
 </head>
 <body>
 <h1>Vice versa</h1>
-<form action="home.html">
+<form action="{% url 'reverse' %}">
     <label>
-        <textarea name="vice versa" rows="10" cols="50"></textarea>
+        <textarea name="text_to_reverse" rows="10" cols="50"></textarea>
     </label>
     <br><br>
     <input type="submit" value="Reverse!">
